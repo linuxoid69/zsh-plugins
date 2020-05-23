@@ -14,7 +14,7 @@ function _get-nodes(){
 }
 
 function _set-color(){
-    echo "\e[1;32m  $1 \e[0m"
+    echo "\e[1;32m$1\e[0m"
 }
 
 function _list-nodes(){

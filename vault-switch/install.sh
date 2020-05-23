@@ -3,7 +3,7 @@
 DIR_INSTALL_PLUGIN="${HOME}/.oh-my-zshd/plugins/vault-switch"
 
 check_oh_my_zsh(){
-    if [ ! -d "${HOME}/.oh-my-zshd" ]
+    if [ ! -d "${HOME}/.oh-my-zsh" ]
     then
      printf "%s\n%s" "You haven't installed oh-my-zsh" "You need to install oh-my-zsh before install plugin."
      exit 1

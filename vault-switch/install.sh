@@ -1,6 +1,6 @@
 #!/bin/env sh
 
-DIR_INSTALL_PLUGIN="${HOME}/.oh-my-zshd/plugins/vault-switch"
+DIR_INSTALL_PLUGIN="${HOME}/.oh-my-zsh/plugins/vault-switch"
 
 check_oh_my_zsh(){
     if [ ! -d "${HOME}/.oh-my-zsh" ]

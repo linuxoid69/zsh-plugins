@@ -6,7 +6,7 @@ This plugin can switch among nodes of Vault - HashiCorp
 
 ## Installation
 ```bash
-curl https://raw.githubusercontent.com/linuxoid69/zsh-plugins/master/vault-switch/install.sh | sh
+curl -s https://raw.githubusercontent.com/linuxoid69/zsh-plugins/master/vault-switch/install.sh | sh
 ```
 
 ## Configuration

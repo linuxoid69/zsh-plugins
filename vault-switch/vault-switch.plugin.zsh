@@ -39,9 +39,9 @@ function _set-work-node(){
         VAULT_TOKEN=$(echo ${NODES[$1]} | cut -d "," -f 3)
 
         echo > ${FILE_CREDENTIALS}
-        echo "VAULT_SELECT_NODE=${VAULT_SELECT_NODE}" >> ${FILE_CREDENTIALS}
-        echo "VAULT_ADDR=${VAULT_ADDR}" >> ${FILE_CREDENTIALS}
-        echo "VAULT_TOKEN=${VAULT_TOKEN}" >> ${FILE_CREDENTIALS}
+        echo "export VAULT_SELECT_NODE=${VAULT_SELECT_NODE}" >> ${FILE_CREDENTIALS}
+        echo "export VAULT_ADDR=${VAULT_ADDR}" >> ${FILE_CREDENTIALS}
+        echo "export VAULT_TOKEN=${VAULT_TOKEN}" >> ${FILE_CREDENTIALS}
         _list-nodes
     fi
 
